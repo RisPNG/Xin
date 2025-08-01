@@ -295,7 +295,7 @@ apt_wrapper() {
           ;;
       esac
       ;;
-      esac
+  esac
 }
 
 apt() {
