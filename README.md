@@ -45,7 +45,7 @@ That's about it.
 
 I have a prototype running on my local machine using Whiptail as the TUI. I would polish it but I decided to turn it into a bigger project so I never bothered. If you feel like testing it, just paste this code at the bottom of your `~/.bashrc`:
 
-```
+```bash
 export NEWT_COLORS='
     root=green,black
     border=green,black
