@@ -1,5 +1,5 @@
 # Xin
-A Packaged Package Manager TUI developed in Golang using Bubble Tea.
+A Packaged Package Manager TUI developed in Golang using Bubble Tea for Debian-based systems.
 
 I plan to develop this because I like installing packages with `--no-install-recommends --no-install-suggests` in `apt` and `nala` or `-R` in `Aptitude`. It's bad in regular practice because recommends are somewhat crucial (not as crucial as depends).
 
