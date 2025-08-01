@@ -282,19 +282,19 @@ apt_wrapper() {
         fi
       done
       ;;
-  	*)
-  	  case "$backend" in
-  		nala)
-  		  command sudo "$NALA_PATH" "$@"
-  		  ;;
-  		aptitude)
-  		  command sudo "$APTITUDE_PATH" "$@"
-  		  ;;
-  		apt|*)
-  		  command sudo "$APT_PATH" "$@"
-  		  ;;
-  	  esac
-  	  ;;
+*)
+  case "$backend" in
+    nala)
+      command sudo "$NALA_PATH" "$@"
+      ;;
+    aptitude)
+      command sudo "$APTITUDE_PATH" "$@"
+      ;;
+    apt|*)
+      command sudo "$APT_PATH" "$@"
+      ;;
+  esac
+  ;;
   esac
 }
 
